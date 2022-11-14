@@ -1,0 +1,160 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 100px;
+    background-color: #EEEEEE;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+  }
+
+  #header-img {
+    margin-left: 5%;
+  }
+
+  .nav-link {
+    width: 20%;
+    color: black;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  #contenedor-form {
+    position: relative;
+    top: 100px;
+    z-index: -1;
+  }
+
+
+  .header-title {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+  }
+
+  #form #email {
+    height: 25px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  #form #submit {
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    background-color: #FFA500;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    display: block;
+    
+  }
+
+  #section1 {
+    width: 70%;
+    margin: 70px auto;
+    font-size: 20px;
+  }
+
+  .section1-contenedor {
+    width: 90%;
+    display: flex;
+    margin: auto;
+  }
+
+  .section1-contenedor img {
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+
+  .section1-contenedor-contenido h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+
+  #video {
+    width: 400px;
+    height: 300px;
+    margin: 25px auto;
+    display: block;
+  }
+
+  #section2 {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .section2-caja {
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .section2-caja h3 {
+    padding: 10px;
+    background-color: #DDDDDD;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .section2-caja h4 {
+    font-size: 25px;
+  } 
+
+  .section2-caja p {
+    width: 40%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+.select {
+    padding: 10px;
+    background-color: #F1C40F;
+}
+
+
+  #footer {
+    width: 80%;
+    height: 100px;
+    background-color: #DDDDDD;
+    margin: 0 auto;
+    text-align: right;
+    
+  }
+
+  #footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    padding-top: 50px;
+  }
+
+  #footer p {
+    padding-top: 5px;
+  }
+
+  @media only screen and (max-width: 500px){
+    #section2 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+  }

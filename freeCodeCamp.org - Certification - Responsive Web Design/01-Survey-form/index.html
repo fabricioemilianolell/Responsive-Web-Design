@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Encuesta</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <main id=main>
+    
+      <h1 id=title>Formulario de Encuesta de Empleo</h1>
+      <div class="contenedor">
+        <p id="description">Describe las características de tu empleabilidad:</p>
+
+          <form id="survey-form">        
+              <label id="name-label"><b>Nombre:</b></label>
+              <input id="name" class="input1" type="text" name="name" required placeholder="Nombre Completo"><br>
+              <br>
+
+              <label id="email-label"><b>Email:</b></label>
+              <input id="email" class="input1" type="email" name="email" required placeholder="gustavo@gmail.com"><br>
+              <br>
+
+              <label id="number-label"><b>Edad</b></label>
+              <input id="number" class="input1" type="number" name="number" min="8" max="15" placeholder="+18">
+              
+             <br>
+             <br>
+              <label id="dropdown-label">Selecciona tu situacion laboral actual</label>
+              <br>
+              <select id="dropdown">
+                  <option value="empleado">Empleado</option>
+
+                  <option value="Busqueda">En busqueda de trabajo</option>
+                  <option value="Empleado">Desempleado</option>
+              </select>
+
+           <div id="radio">
+               <br>
+              <label id="label"><b>si estas trabajando:</b></label>
+              <br>
+              <input type="radio" name="radio" value="empleado" checked>trabajo de tiempo completo<br>
+              <input type="radio" name="radio" value="desempleado">trabajo de tiempo parcial
+           </div>
+           
+            <br>
+          <div id="checkbox">
+              <label id="os-label"><b>Años de experiencia:</b></label><br>
+              <input type="checkbox" name="check" value="experiencia">Mas de 5 años<br>
+              <input type="checkbox" name="check" value="experiencia"> Menos de 10 años<br>
+           </div>
+              <br>
+              <label id="comments-label">Deje algún comentario que quiera realizar</label><br>
+            <textarea placeholder="Por favor deje su comentario"></textarea>
+              <br>
+              <input class="submit" id="submit" type="submit">
+         </form>
+    </div>
+   </main>
+</body>
+</html>
